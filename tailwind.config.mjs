@@ -1,3 +1,5 @@
+import { Instrument_Sans } from 'next/font/google';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -10,7 +12,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        wine: {
+          800: "#5D0C16",
+          900: "#35040B"
+        }
       },
+      fontFamily: {
+        InstrumentSans: ["InstrumentSans", "sans"],
+      }
     },
   },
   plugins: [],
